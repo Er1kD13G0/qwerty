@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // URL base da API
 const api = axios.create({
-  baseURL: 'https://api.checkapp.com/', // Substitua pela URL da sua API
+  baseURL: 'http://localhost:3000/', // Substitua pela URL da sua API
 });
 
 // Funções para gerenciar usuários
